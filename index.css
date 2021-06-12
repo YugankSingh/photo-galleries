@@ -1,42 +1,66 @@
-nav{
+html {
+  height: 100vh;
+}
+body {
+	margin: 0;
+	padding: 0;
+  min-height: 100%;
+}
+nav {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start; 
+	align-items: flex-start;
 	margin: auto;
 	width: min-content;
 	height: min-content;
 
-  padding: 10px;
+	padding: 10px;
+
 }
-a{
-	font-size: 50px;
+a {
+	font-size: 2em;
 	text-decoration: none;
 	white-space: nowrap;
 	margin: 3px;
 	margin-top: 25px;
 	transition: all 1 ease-in-out;
-	color: #ADEFD1FF;
+	color: #adefd1ff;
 }
-a:hover{
+a:hover {
 	color: rgb(226, 98, 84);
 }
-body{
+body {
 	background-color: rgb(30, 63, 95);
 	color: rgb(102, 180, 145);
-  display: flex;
+	display: flex;
 	flex-direction: column;
-  align-items: center;
+	align-items: center;
 	height: 100vh;
 	margin: 0;
 	padding: 0;
-	font-size: 1.3em;
+	font-size: 25px;
 }
-p{
+@media only screen and (max-width: 650px) {
+	body {
+		font-size: 3.8vw;
+	}
+}
+@media only screen and (max-width: 380px) {
+	body {
+		font-size: 15px;
+	}
+	nav{
+		width: 90%;
+	}
+	a {
+		white-space: normal;
+	}
+}
+p {
 	margin-top: 10px;
 }
-a{
-	color: #ADEFD1FF;
-	font-size: 50px;
+a {
+	color: #adefd1ff;
 	text-decoration: none;
 	position: relative;
 }
