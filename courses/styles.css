@@ -1,0 +1,56 @@
+html{
+    text-align: center;
+    padding-bottom: 6vh;
+    background-image: url(https://www.itl.cat/pngfile/big/136-1369649_white-red-disaster-japan-wallpaper-and-background-jpg.jpg);
+    font-family: sans-serif;
+		background-attachment: fixed;
+}html {
+  height: 100vh;
+}
+body {
+	margin: 0;
+	padding: 0;
+  min-height: 100%;
+}
+h1{
+	color: white
+}
+#preload-div{
+    margin-top: 20vh;
+}
+button{
+	font-size: 1.5em;
+	padding: 0.5em;
+}
+#preload-div>*{
+    margin: 3vh;
+}
+
+
+#courses-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#courses-container>*{
+    display: inline-block;
+    background-color: white;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.course-photo{
+    width: 100px;
+}
+
+.course-name{
+    text-align: left;
+}
+
+.course-category{
+    margin-top: 20px;
+    text-align: right;
+}

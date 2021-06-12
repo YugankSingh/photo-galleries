@@ -1,0 +1,62 @@
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start; 
+	margin: auto;
+	width: min-content;
+	height: min-content;
+
+  padding: 10px;
+}
+a{
+	font-size: 50px;
+	text-decoration: none;
+	white-space: nowrap;
+	margin: 3px;
+	margin-top: 25px;
+	transition: all 1 ease-in-out;
+	color: #ADEFD1FF;
+}
+a:hover{
+	color: rgb(226, 98, 84);
+}
+body{
+	background-color: rgb(30, 63, 95);
+	color: rgb(102, 180, 145);
+  display: flex;
+	flex-direction: column;
+  align-items: center;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-size: 1.3em;
+}
+p{
+	margin-top: 10px;
+}
+a{
+	color: #ADEFD1FF;
+	font-size: 50px;
+	text-decoration: none;
+	position: relative;
+}
+a:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: currentColor;
+	visibility: hidden;
+	transition: all 0.3s ease-in-out;
+}
+a:hover:before {
+	visibility: none;
+	width: 0%;
+}
+
+a:before {
+	visibility: visible;
+	width: 100%;
+}

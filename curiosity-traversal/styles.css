@@ -1,0 +1,121 @@
+html {
+  height: 100vh;
+}
+body {
+	margin: 0;
+	padding: 0;
+  min-height: 100%;
+}
+#header {
+	height: 30vh;
+}
+#header > * {
+	height: 50px;
+}
+
+#bottom,
+#header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: transparent;
+}
+
+#bottom {
+	height: 60vh;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 6vh;
+	background: linear-gradient(to right, #01cbc6, #e74292);
+}
+
+#photo-container {
+	height: 64vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.photo {
+	width: 340px;
+	margin: 15px;
+}
+
+#galaxy {
+	width: 100%;
+	height: 60vh;
+	object-fit: contain;
+}
+#buttons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 15px;
+	padding: 15px;
+}
+
+#buttons > * {
+	height: 50px;
+	width: 100px;
+}
+
+#header {
+	display: flex;
+	justify-content: center !important;
+	height: 30vh;
+	align-items: center;
+}
+#header > * {
+	height: 50px;
+	width: 100px;
+	padding: 5px;
+	margin: 20px;
+}
+#header > #sol {
+	width: 150px;
+}
+#bottom {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: transparent;
+}
+#bottom {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: transparent;
+}
+
+#bottom {
+	height: 60vh;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 6vh;
+	background-image: url(https://vsthemes.org/uploads/posts/2020-10/1603470086_screenshot_15.jpg);
+	background-attachment: fixed;
+}
+
+#photo-container {
+	height: 64vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.photo {
+	width: 340px;
+	margin: 15px;
+}
+
+#galaxy {
+	width: 100%;
+	height: 60vh;
+	object-fit: contain;
+}
